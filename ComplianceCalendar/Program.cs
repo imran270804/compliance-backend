@@ -131,7 +131,7 @@ var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseCors("AllowLocalhost");
+    app.UseCors("SpecificOrigin");
     app.UseSwagger();
     app.UseSwaggerUI();
 }
