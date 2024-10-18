@@ -122,7 +122,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("SpecificOrigin",
         builder => builder
-            .WithOrigins('https://compliance-calendar-hosting-kkph.vercel.app')
+            .WithOrigins("https://compliance-calendar-hosting-kkph.vercel.app")
             .AllowAnyMethod()
             .AllowAnyHeader());
 });
