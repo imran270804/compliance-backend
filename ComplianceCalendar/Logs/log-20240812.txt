@@ -1,0 +1,9 @@
+2024-08-12 12:29:27.735 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-08-12 12:29:27.800 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-08-12 12:29:27.800 +05:30 [INF] Quartz Scheduler created
+2024-08-12 12:29:27.801 +05:30 [INF] RAMJobStore initialized.
+2024-08-12 12:29:27.801 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-08-12 12:29:27.801 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-08-12 12:29:27.801 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-08-12 12:29:27.801 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-08-12 12:29:27.833 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.

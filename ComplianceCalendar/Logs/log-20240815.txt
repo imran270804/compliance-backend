@@ -1,0 +1,12 @@
+2024-08-15 09:01:23.857 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-08-15 09:01:23.924 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-08-15 09:01:23.925 +05:30 [INF] Quartz Scheduler created
+2024-08-15 09:01:23.926 +05:30 [INF] RAMJobStore initialized.
+2024-08-15 09:01:23.932 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-08-15 09:01:23.932 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-08-15 09:01:23.933 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-08-15 09:01:23.934 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-08-15 09:01:23.965 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-08-15 13:05:07.080 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-08-15 13:05:08.372 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-08-15 13:05:08.583 +05:30 [INF] Departments retrieved successfully for employeeId: 2

@@ -1,0 +1,154 @@
+2024-08-27 09:23:58.595 +05:30 [ERR] An error occurred using the connection to database 'ComplianceDemo1' on server 'tcp://localhost:5432'.
+2024-08-27 09:23:59.271 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'ComplianceCalendar.Data.APIContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): The operation has timed out
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.ThrowHelper.ThrowNpgsqlExceptionWithInnerTimeoutException(String message)
+   at Npgsql.Util.NpgsqlTimeout.Check()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndGetTimeLeft()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndApply(NpgsqlConnector connector)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure.
+ ---> Npgsql.NpgsqlException (0x80004005): The operation has timed out
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.ThrowHelper.ThrowNpgsqlExceptionWithInnerTimeoutException(String message)
+   at Npgsql.Util.NpgsqlTimeout.Check()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndGetTimeLeft()
+   at Npgsql.Util.NpgsqlTimeout.CheckAndApply(NpgsqlConnector connector)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-08-27 09:24:16.776 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'ComplianceCalendar.Data.APIContext'.
+System.InvalidCastException: Column 'IsRecurring' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetBoolean(Int32 ordinal)
+   at lambda_method431(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Column 'IsRecurring' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetBoolean(Int32 ordinal)
+   at lambda_method431(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-08-27 09:24:16.844 +05:30 [ERR] Job DEFAULT.ComplianceCalendar.Services.Scheduler.UpdateFilingStatusJob threw an unhandled Exception: 
+System.InvalidCastException: Column 'IsRecurring' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetBoolean(Int32 ordinal)
+   at lambda_method431(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ComplianceCalendar.Repository.FilingSchedulerRepository.GetOpenFilingsPastDueDateAsync(DateTime dueDate) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Repository\FilingSchedulerRepository.cs:line 23
+   at ComplianceCalendar.Services.Scheduler.UpdateFilingStatusJob.Execute(IJobExecutionContext context) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Job\Scheduler\UpdateFilingStatusJob.cs:line 25
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+2024-08-27 09:24:16.849 +05:30 [ERR] Job DEFAULT.ComplianceCalendar.Services.Scheduler.UpdateFilingStatusJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.InvalidCastException: Column 'IsRecurring' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetBoolean(Int32 ordinal)
+   at lambda_method431(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ComplianceCalendar.Repository.FilingSchedulerRepository.GetOpenFilingsPastDueDateAsync(DateTime dueDate) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Repository\FilingSchedulerRepository.cs:line 23
+   at ComplianceCalendar.Services.Scheduler.UpdateFilingStatusJob.Execute(IJobExecutionContext context) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Job\Scheduler\UpdateFilingStatusJob.cs:line 25
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.InvalidCastException: Column 'IsRecurring' is null.
+   at Npgsql.ThrowHelper.ThrowInvalidCastException_NoValue(FieldDescription field)
+   at Npgsql.NpgsqlDataReader.DbNullValueOrThrow[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetFieldValueCore[T](Int32 ordinal)
+   at Npgsql.NpgsqlDataReader.GetBoolean(Int32 ordinal)
+   at lambda_method431(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ComplianceCalendar.Repository.FilingSchedulerRepository.GetOpenFilingsPastDueDateAsync(DateTime dueDate) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Repository\FilingSchedulerRepository.cs:line 23
+   at ComplianceCalendar.Services.Scheduler.UpdateFilingStatusJob.Execute(IJobExecutionContext context) in C:\Users\sreeram.kamath\Desktop\ComplianceCalendarClone\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Job\Scheduler\UpdateFilingStatusJob.cs:line 25
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2024-08-27 09:26:23.074 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-08-27 09:26:23.102 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-08-27 09:27:53.972 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: CS
+2024-08-27 09:27:54.018 +05:30 [INF] Employees retrieved successfully for departmentId: CS
+2024-08-27 09:28:06.018 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:06.092 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-08-27 09:28:08.333 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:10.398 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:11.630 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:12.312 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:14.948 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:16.843 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:18.656 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:19.523 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:28:20.715 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:32:16.703 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-08-27 09:32:16.802 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-08-27 09:32:16.802 +05:30 [INF] Quartz Scheduler created
+2024-08-27 09:32:16.803 +05:30 [INF] RAMJobStore initialized.
+2024-08-27 09:32:16.804 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-08-27 09:32:16.805 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-08-27 09:32:16.811 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-08-27 09:32:16.812 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-08-27 09:32:16.840 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-08-27 09:32:36.736 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-08-27 09:32:37.802 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-08-27 09:32:39.333 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-08-27 09:32:52.924 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: CS
+2024-08-27 09:32:53.150 +05:30 [INF] Employees retrieved successfully for departmentId: CS
+2024-08-27 09:33:04.417 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:04.589 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-08-27 09:33:07.267 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:07.975 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:08.968 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:09.783 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:10.652 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:12.496 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:14.471 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:15.173 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:15.881 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:16.791 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:17.808 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:19.318 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:20.207 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:21.116 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:33:24.321 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:33:49.923 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:34:23.565 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:34:23.604 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-08-27 09:34:27.651 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-08-27 09:34:27.675 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-08-27 09:34:29.246 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:34:30.444 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-08-27 09:55:39.388 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024

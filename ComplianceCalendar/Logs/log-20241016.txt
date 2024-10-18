@@ -1,0 +1,20 @@
+2024-10-16 16:18:44.555 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-16 16:18:44.764 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-16 16:18:44.765 +05:30 [INF] Quartz Scheduler created
+2024-10-16 16:18:44.767 +05:30 [INF] RAMJobStore initialized.
+2024-10-16 16:18:44.768 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-16 16:18:44.769 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-16 16:18:44.770 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-16 16:18:44.773 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-16 16:18:44.906 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-16 16:51:10.248 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-16 16:51:10.411 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-16 16:51:10.412 +05:30 [INF] Quartz Scheduler created
+2024-10-16 16:51:10.413 +05:30 [INF] RAMJobStore initialized.
+2024-10-16 16:51:10.428 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-16 16:51:10.428 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-16 16:51:10.429 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-16 16:51:10.430 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-16 16:51:10.502 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-16 16:51:37.934 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-16 16:51:39.394 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.

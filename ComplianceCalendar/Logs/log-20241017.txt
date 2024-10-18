@@ -1,0 +1,70 @@
+2024-10-17 10:15:34.579 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-17 10:15:34.703 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-17 10:15:34.703 +05:30 [INF] Quartz Scheduler created
+2024-10-17 10:15:34.704 +05:30 [INF] RAMJobStore initialized.
+2024-10-17 10:15:34.705 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-17 10:15:34.705 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-17 10:15:34.706 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-17 10:15:34.718 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-17 10:15:34.798 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-17 10:24:09.080 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-17 10:25:00.167 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-17 10:25:00.378 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-17 10:25:00.379 +05:30 [INF] Quartz Scheduler created
+2024-10-17 10:25:00.380 +05:30 [INF] RAMJobStore initialized.
+2024-10-17 10:25:00.381 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-17 10:25:00.382 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-17 10:25:00.383 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-17 10:25:00.395 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-17 10:25:00.462 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-17 10:26:21.873 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-17 10:26:30.359 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX12709: CanReadToken() returned false. JWT is not well formed.
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EncodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadToken(String token)
+   at AuthenticationEndpoint.<>c.<MapAuthenticationEndpoints>b__0_0(String token, IServiceProvider services) in C:\Users\imrankhan.am\Desktop\Compliance-Calendar\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Endpoints\AuthenticationEndpoints.cs:line 81
+   at lambda_method13(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-17 10:34:51.415 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-17 10:34:51.517 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-17 10:34:51.517 +05:30 [INF] Quartz Scheduler created
+2024-10-17 10:34:51.518 +05:30 [INF] RAMJobStore initialized.
+2024-10-17 10:34:51.518 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-17 10:34:51.519 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-17 10:34:51.519 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-17 10:34:51.520 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-17 10:34:51.584 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-17 10:35:45.346 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-17 10:35:48.027 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-10-17 10:54:29.228 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-17 10:54:29.347 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-17 10:54:29.348 +05:30 [INF] Quartz Scheduler created
+2024-10-17 10:54:29.348 +05:30 [INF] RAMJobStore initialized.
+2024-10-17 10:54:29.349 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-17 10:54:29.349 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-17 10:54:29.349 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-17 10:54:29.350 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-17 10:54:29.405 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-17 10:54:40.542 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-17 10:54:42.623 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-10-17 11:03:26.228 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-17 11:03:26.335 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-17 11:03:26.335 +05:30 [INF] Quartz Scheduler created
+2024-10-17 11:03:26.336 +05:30 [INF] RAMJobStore initialized.
+2024-10-17 11:03:26.344 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-17 11:03:26.344 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-17 11:03:26.345 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-17 11:03:26.346 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-17 11:03:26.396 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-17 11:03:52.566 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-17 11:03:54.569 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-10-17 11:08:28.950 +05:30 [INF] AddAdmin endpoint called
+2024-10-17 11:08:29.598 +05:30 [ERR] Failed to add admin
+System.Exception: Department 'string' not found.
+   at AdminRepository.AddAdminAsync(AddAdminDTO model) in C:\Users\imrankhan.am\Desktop\Compliance-Calendar\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Repository\AdminRepository.cs:line 91
+   at ComplianceCalendar.Controllers.AdminController.AddAdmin(AddAdminDTO model) in C:\Users\imrankhan.am\Desktop\Compliance-Calendar\Compliance-Calendar\Backend\Compliance_Calendar\ComplianceCalendar\Controllers\AdminController.cs:line 84

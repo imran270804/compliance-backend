@@ -1,0 +1,150 @@
+2024-10-11 09:17:42.264 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-11 09:17:42.353 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-11 09:17:42.354 +05:30 [INF] Quartz Scheduler created
+2024-10-11 09:17:42.354 +05:30 [INF] RAMJobStore initialized.
+2024-10-11 09:17:42.355 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-11 09:17:42.356 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-11 09:17:42.356 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-11 09:17:42.358 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-11 09:17:42.403 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-11 09:19:48.307 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-10-11 09:19:50.907 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:19:51.624 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-10-11 09:20:09.079 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:09.201 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:09.719 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:09.733 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:10.392 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:10.412 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:11.154 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:11.169 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:20:12.703 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:30:40.936 +05:30 [INF] GetUsers called with id: 2
+2024-10-11 09:30:40.942 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 09:30:41.109 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 09:30:42.108 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 09:30:42.229 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 09:31:05.280 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: HR
+2024-10-11 09:31:05.298 +05:30 [INF] Employees retrieved successfully for departmentId: HR
+2024-10-11 09:31:10.489 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: CS
+2024-10-11 09:31:10.507 +05:30 [INF] Employees retrieved successfully for departmentId: CS
+2024-10-11 09:31:22.773 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:31:24.729 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:31:24.766 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:31:25.576 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:31:25.604 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:31:26.352 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 09:31:26.352 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:58:38.904 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:58:52.564 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 09:59:06.257 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 09:59:06.261 +05:30 [INF] GetUsers called with id: 2
+2024-10-11 09:59:06.265 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 09:59:09.936 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 09:59:09.944 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 10:04:49.734 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:15.035 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:18.475 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:43.458 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:43.484 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:55.840 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:05:58.527 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 10:05:58.531 +05:30 [INF] GetUsers called with id: 2
+2024-10-11 10:05:58.537 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 10:05:59.586 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:06:02.221 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:06:02.255 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:06:05.860 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:06:07.619 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 10:06:07.629 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 10:06:07.632 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: CS
+2024-10-11 10:06:07.639 +05:30 [INF] Employees retrieved successfully for departmentId: CS
+2024-10-11 10:06:13.138 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:06:15.331 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 10:06:15.331 +05:30 [INF] GetUsers called with id: 2
+2024-10-11 10:06:15.354 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 10:06:17.473 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:47.461 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:47.535 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:49.783 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:49.798 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:50.572 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:50.599 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:51.669 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:51.698 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:52.583 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:52.598 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:53.513 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:21:53.519 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:54.572 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:54.585 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:55.705 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:55.730 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:56.572 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:56.597 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:57.423 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:57.445 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2025
+2024-10-11 10:21:59.286 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 10:22:03.779 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:04:53.861 +05:30 [INF] GetDepartmentNamesByEmployeeId endpoint called with employeeId: 2
+2024-10-11 11:04:53.948 +05:30 [INF] Departments retrieved successfully for employeeId: 2
+2024-10-11 11:05:08.022 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: CS
+2024-10-11 11:05:08.031 +05:30 [INF] Employees retrieved successfully for departmentId: CS
+2024-10-11 11:05:10.542 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: F&A
+2024-10-11 11:05:10.545 +05:30 [INF] Employees retrieved successfully for departmentId: F&A
+2024-10-11 11:05:16.000 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: HR
+2024-10-11 11:05:16.006 +05:30 [INF] Employees retrieved successfully for departmentId: HR
+2024-10-11 11:05:20.165 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: F&A
+2024-10-11 11:05:20.168 +05:30 [INF] Employees retrieved successfully for departmentId: F&A
+2024-10-11 11:05:30.198 +05:30 [INF] GetEmployeesByDepartmentId endpoint called with departmentId: HR
+2024-10-11 11:05:30.202 +05:30 [INF] Employees retrieved successfully for departmentId: HR
+2024-10-11 11:05:48.760 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:06:13.824 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:06:16.605 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:06:16.614 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:06:17.321 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:06:17.327 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:06:18.776 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:09:43.625 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:09:50.362 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:09:59.025 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:13:08.284 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:13:12.599 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:21:39.362 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:22:33.874 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:23:28.289 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:24:54.111 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:24:57.596 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:24:57.613 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:28:12.362 +05:30 [INF] GetUserFilings called with employeeId: 3, year: 2024
+2024-10-11 11:28:40.147 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:28:53.295 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:32:56.071 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:34:43.317 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:35:52.752 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:36:01.358 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:36:30.319 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:37:12.332 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:40:22.954 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:42:12.754 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-11 11:42:12.827 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-11 11:42:12.827 +05:30 [INF] Quartz Scheduler created
+2024-10-11 11:42:12.828 +05:30 [INF] RAMJobStore initialized.
+2024-10-11 11:42:12.828 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-11 11:42:12.829 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-11 11:42:12.829 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-11 11:42:12.834 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-11 11:42:12.860 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2024-10-11 11:42:27.193 +05:30 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-10-11 11:42:28.509 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:42:28.878 +05:30 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-10-11 11:42:32.149 +05:30 [INF] GetAdminFilings called with employeeId: 2, year: 2024
+2024-10-11 11:49:23.956 +05:30 [INF] Default Quartz.NET properties loaded from embedded resource file
+2024-10-11 11:49:24.039 +05:30 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2024-10-11 11:49:24.039 +05:30 [INF] Quartz Scheduler created
+2024-10-11 11:49:24.040 +05:30 [INF] RAMJobStore initialized.
+2024-10-11 11:49:24.040 +05:30 [INF] Quartz Scheduler 3.11.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2024-10-11 11:49:24.046 +05:30 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2024-10-11 11:49:24.046 +05:30 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2024-10-11 11:49:24.047 +05:30 [INF] JobFactory set to: ComplianceCalendar.Services.Scheduler.SchedulerJobFactory
+2024-10-11 11:49:24.072 +05:30 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
